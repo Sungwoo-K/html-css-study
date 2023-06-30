@@ -1,0 +1,46 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+);
+
+header {
+  padding: 40px;
+}
+
+header div{
+  margin-top: 30px;
+  display: flex;
+  height: 130px;
+  background-color: #A4DEF9;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+}
+
+.fa-spoon {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+header > div > h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+
+header nav {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #279FD7;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+section {
+  padding-left: 30px;
+  padding-top: 30px;
+}
