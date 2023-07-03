@@ -46,7 +46,10 @@ header nav {
 header > nav > ul > a > li {
   font-size: 1.1rem;
   font-weight: 1000;
+  list-style: none;
+  color: var(--main-color);
 }
+
 
 .fa-spoon {
   font-size: 60px;
@@ -67,7 +70,12 @@ td {
   padding: 5px;
 }
 
-a {
+a:not(#company) {
+  text-decoration: none;
+  color: white;
+}
+
+#company {
   text-decoration: none;
   color: var(--main-color);
 }
@@ -81,6 +89,20 @@ section {
   padding-top: 30px;
 }
 
+section > article > h3 {
+  color: white;
+  background-color: var(--main-color);
+  width: max-content;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 25px;
+}
+
 article {
   margin-bottom: 70px;
+}
+
+footer h4 {
+  margin-left: 10px;
 }

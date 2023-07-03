@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        font-size: 3rem;
+      }
+      p::first-line {
+        color: green;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li::before {
+        content: "✔";
+        margin-right: 0.5rem;
+        color: green;
+      }
+      li::after {
+        content: "❤";
+        color: red;
+        margin-left: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa
+      cumque maiores, sunt assumenda quo facere, tempore nemo sapiente quidem
+      odit eaque. Magnam sequi, eum alias et dignissimos veniam atque!
+    </p>
+    <h1>할 일</h1>
+    <ul>
+      <li>THML 태그 정리하기</li>
+      <li>CSS 연습하기</li>
+    </ul>
+  </body>
+</html>

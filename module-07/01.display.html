@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        visibility: hidden;
+      }
+      h1:hover + div {
+        visibility: visible;
+      }
+
+      li {
+        display: inline;
+      }
+
+      span {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid black;
+      }
+
+      span:first-of-type {
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: blue;
+        text-decoration-thickness: 10px;
+      }
+      span:nth-of-type(2) {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fuga quia quo
+      et sit provident voluptate quibusdam, molestias dolorem ipsam, sunt, vitae
+      repudiandae voluptatum. Iste doloribus alias error facere perferendis.
+    </div>
+    <ul>
+      <li>Lorem, ipsum dolor.</li>
+      <li>Lorem, ipsum dolor.</li>
+      <li>Lorem, ipsum dolor.</li>
+    </ul>
+    <span>Lorem, ipsum dolor.</span>
+    <span>Lorem, ipsum dolor.</span>
+  </body>
+</html>
