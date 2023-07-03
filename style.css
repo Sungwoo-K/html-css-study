@@ -1,8 +1,13 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
 );
-
+*{
+  box-sizing: border-box;
+}
 header {
   padding: 40px;
+}
+table {
+  border-collapse: collapse;
 }
 
 header div{
@@ -31,6 +36,11 @@ header nav {
   margin-bottom: 40px;
 }
 
+header > nav > ul > a > li {
+  font-size: 1.1rem;
+  font-weight: 1000;
+}
+
 a {
   text-decoration: none;
   color: #279FD7;
@@ -43,4 +53,7 @@ li {
 section {
   padding-left: 30px;
   padding-top: 30px;
+}
+article {
+  margin-bottom: 70px;
 }
