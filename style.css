@@ -8,23 +8,19 @@
 *{
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+hr {
+  height : 5px;
+  background-color: var(--main-color);
+}
+
 header {
   padding: 40px;
 }
-table {
-  border-collapse: collapse;
-  border: 3px solid var(--main-color);
-  width: 500px;
-}
-
-td, tr, th{
-  border: 1px solid var(--main-color);
-}
-
-td {
-  padding: 5px;
-}
-
 
 header div{
   margin-top: 30px;
@@ -34,11 +30,6 @@ header div{
   align-items: center;
   justify-content: space-evenly;
   border-radius: 50px;
-}
-
-.fa-spoon {
-  font-size: 60px;
-  color: #ffffff;
 }
 
 header > div > h1 {
@@ -57,6 +48,25 @@ header > nav > ul > a > li {
   font-weight: 1000;
 }
 
+.fa-spoon {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid var(--main-color);
+  width: 500px;
+}
+
+td, tr, th{
+  border: 1px solid var(--main-color);
+}
+
+td {
+  padding: 5px;
+}
+
 a {
   text-decoration: none;
   color: var(--main-color);
@@ -70,6 +80,7 @@ section {
   padding-left: 30px;
   padding-top: 30px;
 }
+
 article {
   margin-bottom: 70px;
 }
