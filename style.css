@@ -40,11 +40,13 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
   animation: invisible 0.4s linear forwards;
   animation-delay: 2s;
+  gap: 20px;
 }
 
 #spinner {
@@ -54,6 +56,12 @@ body {
   border-top: 15px solid rgba(163, 151, 198, 1);
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+#wrapper > div:nth-of-type(2) > span {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
 }
 
 main {
