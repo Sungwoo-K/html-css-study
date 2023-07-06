@@ -194,6 +194,10 @@ nav > ul > a > li:hover{
   color: #ffffff;
 }
 
+.fa-cutlery:hover {
+  animation: spin 1.2s ease-in-out infinite;
+}
+
 table {
   border-collapse: collapse;
   border: 3px solid var(--main-color);
