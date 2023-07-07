@@ -70,6 +70,10 @@ main {
   align-items: center;
 }
 
+main > section > article >p:nth-of-type(1) {
+  text-align: center;
+}
+
 #arrow-bar {
   display: flex;
   position: fixed;
